@@ -1,3 +1,6 @@
+-- Use case:
+-- When I want to split lookup information from SharePoint lists. (i.e. users, lists that lookup to to other objects.) 
+
 -- Create a new temp table
 create TABLE ##temp_table (
 	names varchar(MAX)

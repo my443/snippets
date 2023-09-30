@@ -11,22 +11,34 @@ function find_number_in_array(arr, num) {
 }
 
 function check(arr, num) {
+    console.log(arr, '-->', num)
+
     used_indexes = [];
 
     console.log('index', '|  where the number exists')
 
     arr.forEach((element, index) => {
         number_to_look_for = num - element;
-        number_exists = find_number_in_array(arr, number_to_look_for);
+        number_to_look_for_index = find_number_in_array(arr, number_to_look_for);
 
-        if (number_exists == -1) {
+        if (number_to_look_for_index == -1) {
             return false;
         }
         else {
-            console.log(' ', index, '     ', number_exists);
-            if (find_number_in_array(used_indexes, index) == -1 && find_number_in_array(used_indexes, number_exists) == -1) {
-                used_indexes.push(index);
-                used_indexes.push(number_exists);
+            console.log(' ', index, '     ', number_to_look_for_index);
+
+            // arr.every((element, every_index) => {
+            //     console.log(' ', index, '     ', every_index)
+            //     if(element == number_to_look_for && find_number_in_array(used_indexes, every_index) == -1){
+            //         used_indexes.push(number_exists);
+            //         return false;
+            //     }
+            // });
+
+            // if (find_number_in_array(used_indexes, index) == -1 && find_number_in_array(used_indexes, number_exists) == -1) {
+            if (find_number_in_array(used_indexes, number_to_look_for_index) == -1 ) {                
+                used_indexes.push(number_to_look_for_index);
+                // used_indexes.push(number_exists);
             }
         }
         console.log(used_indexes);        

@@ -22,18 +22,19 @@ function check(arr, num) {
         number_to_look_for = num - arrElement;
         console.log("number we're looking for ", number_to_look_for);
         // number_to_look_for_index = find_number_in_array(arr, number_to_look_for);
+        console.log('Current step          ', print_array_step(arr, arrIndex));
 
         arr.every((everyElement, everyIndex) => {
-            console.log(' ', arrElement, '     ', arrIndex);
+            console.log('Checking for value in ', print_array_step(arr, everyIndex), everyElement  == number_to_look_for);
+            // console.log(' ', arrElement, '     ', arrIndex);
 
 
-            console.log((arrIndex != everyIndex && (find_number_in_array(used_indexes, everyIndex) == -1) && (everyElement + arrElement) == num) );
-            console.log('arrIndex != everyIndex', arrIndex != everyIndex);
-            console.log('find_number_in_array(used_indexes, everyIndex) == -1)', (find_number_in_array(used_indexes, everyIndex) == -1));
-            console.log('number_to_look_for == num', number_to_look_for == num, (everyElement + number_to_look_for), num);
+            // console.log((arrIndex != everyIndex && (find_number_in_array(used_indexes, everyIndex) == -1) && (everyElement + arrElement) == num) );
+            // console.log('arrIndex != everyIndex', arrIndex != everyIndex);
+            // console.log('find_number_in_array(used_indexes, everyIndex) == -1)', (find_number_in_array(used_indexes, everyIndex) == -1));
+            // console.log('number_to_look_for == num', number_to_look_for == num, (everyElement + number_to_look_for), num);
 
-            if (arrIndex != everyIndex && (find_number_in_array(used_indexes, everyIndex) == -1) && (everyElement + number_to_look_for) == num ){
-
+            if (arrIndex != everyIndex && (find_number_in_array(used_indexes, everyIndex) == -1) && everyElement  == number_to_look_for){
                 used_indexes.push(everyIndex);
                 return false;
             }
@@ -90,6 +91,20 @@ function sum(indexesArray) {
     )
 
     return returnValue
+}
+
+function print_array_step (arr, index_to_display) {
+    returnArray = [];
+    arr.forEach((element, index) => {
+        if (index != index_to_display){
+            returnArray.push('x');
+        } 
+        else{
+            returnArray.push(element);
+        }
+    })
+    // console.log(returnArray);
+    return returnArray
 }
 
 //   x = pairwise([1,4,2,3,0,5], 7);

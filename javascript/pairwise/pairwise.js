@@ -21,18 +21,10 @@ function check(arr, num) {
     arr.forEach((arrElement, arrIndex) => {
         number_to_look_for = num - arrElement;
         console.log("number we're looking for ", number_to_look_for);
-        // number_to_look_for_index = find_number_in_array(arr, number_to_look_for);
         console.log('Current step          ', print_array_step(arr, arrIndex));
 
         arr.every((everyElement, everyIndex) => {
             console.log('Checking for value in ', print_array_step(arr, everyIndex), everyElement  == number_to_look_for);
-            // console.log(' ', arrElement, '     ', arrIndex);
-
-
-            // console.log((arrIndex != everyIndex && (find_number_in_array(used_indexes, everyIndex) == -1) && (everyElement + arrElement) == num) );
-            // console.log('arrIndex != everyIndex', arrIndex != everyIndex);
-            // console.log('find_number_in_array(used_indexes, everyIndex) == -1)', (find_number_in_array(used_indexes, everyIndex) == -1));
-            // console.log('number_to_look_for == num', number_to_look_for == num, (everyElement + number_to_look_for), num);
 
             if (arrIndex != everyIndex && (find_number_in_array(used_indexes, everyIndex) == -1) && everyElement  == number_to_look_for){
                 used_indexes.push(everyIndex);
@@ -44,39 +36,6 @@ function check(arr, num) {
     
         });
 
-        // arr.every((everyElement, everyIndex) => {
-        //     console.log('arrIndex != everyIndex', arrIndex != everyIndex);
-        //     console.log('find_number_in_array(used_indexes, everyIndex) == -1)', (find_number_in_array(used_indexes, everyIndex) == -1));
-        //     console.log('(everyElement - arrElement) == num)', (everyElement - arrElement) == num);
-
-        //     if (arrIndex != everyIndex && (find_number_in_array(used_indexes, everyIndex) == -1) && (everyElement + arrElement) == num){
-        //         used_indexes.push(everyIndex);
-        //     }
-        //     else {
-        //         return false;
-        //     }
-        // });
-
-        // if (number_to_look_for_index == -1) {
-        //     return false;
-        // }
-        // else {
-        //     console.log(' ', index, '     ', number_to_look_for_index);
-
-        //     // arr.every((element, every_index) => {
-        //     //     console.log(' ', index, '     ', every_index)
-        //     //     if(element == number_to_look_for && find_number_in_array(used_indexes, every_index) == -1){
-        //     //         used_indexes.push(number_exists);
-        //     //         return false;
-        //     //     }
-        //     // });
-
-        //     // if (find_number_in_array(used_indexes, index) == -1 && find_number_in_array(used_indexes, number_exists) == -1) {
-        //     if (find_number_in_array(used_indexes, number_to_look_for_index) == -1 ) {                
-        //         used_indexes.push(number_to_look_for_index);
-        //         // used_indexes.push(number_exists);
-        //     }
-        // }
         console.log(used_indexes);        
     });
     return used_indexes;
@@ -107,14 +66,7 @@ function print_array_step (arr, index_to_display) {
     return returnArray
 }
 
-//   x = pairwise([1,4,2,3,0,5], 7);
-//   console.log(x)
 
-
-// check([5, 6, 4, 2, 5, 7, 1], 6);
-// check([7, 9, 11, 13, 15], 20);
-// n = pairwise([7, 9, 11, 13, 15], 20);
-// console.log(n);
 // check([1, 1, 1], 2)
 check([1, 3, 2, 4], 4);
 

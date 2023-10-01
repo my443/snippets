@@ -2,7 +2,6 @@ function pairwise(arr, arg) {
     let array_to_sum = check(arr, arg);
     // console.log (array_to_sum);
     return sum(array_to_sum);
-    // return arg;
 }
 
 function find_number_in_array(arr, num) {
@@ -19,7 +18,7 @@ function check(arr, num) {
     // console.log('index', '|  where the number exists')
 
     arr.forEach((arrElement, arrIndex) => {
-        number_to_look_for = num - arrElement;
+        let number_to_look_for = num - arrElement;
         // console.log("number we're looking for ", number_to_look_for);
         // console.log('Current step          ', print_array_step(arr, arrIndex));
 
@@ -51,26 +50,3 @@ function sum(indexesArray) {
 
     return returnValue
 }
-
-function print_array_step (arr, index_to_display) {
-    let returnArray = [];
-    arr.forEach((element, index) => {
-        if (index != index_to_display){
-            returnArray.push('x');
-        } 
-        else{
-            returnArray.push(element);
-        }
-    })
-    // console.log(returnArray);
-    return returnArray
-}
-
-
-// check([1, 1, 1], 2)
-check([1, 3, 2, 4], 4);
-
-module.exports = { pairwise, sum, find_number_in_array };
-
-// export {sum};
-

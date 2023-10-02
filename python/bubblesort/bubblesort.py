@@ -1,21 +1,21 @@
 
 
-l = [5, 3, 7, 1, 4]
+array = [5, 3, 7, 1, 4]
+array = [1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92]
 
-for level_one_index, round_one_item in enumerate(l):
-    print('Round: ',level_one_index, ' -- ', l)
-    swapped = False
-    
-    for index, value in enumerate(l[level_one_index:]):
+def bubblesort(array):
+    for index, item in enumerate(array):
+        #print('Round: ',index, ' -- ', array)
 
-        
-        if index < len(l)-1:
-            if l[index] > l[index + 1]:
-                first = l[index]
-                second = l[index+1]
-                l[index] = second
-                l[index +1] = first
+        for index, value in enumerate(array[:-index]):
+            if array[index] > array[index + 1]:
+                first = array[index]
+                second = array[index+1]
+                array[index] = second
+                array[index +1] = first
                 swapped = True
-                
-            print('              ', l, swapped)
+
+
+              #print('              ', l, swapped)
+    return array
 

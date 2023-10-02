@@ -12,6 +12,11 @@ for i in range(10):
     logging.warning('This message should go to the log file')
     logging.error('This message should go to the log file')
 
+try:
+    x = 1 / 0
+except:
+    logging.exception("That didn't go well.")
+
 
 ## Learning came from:
 ## https://stackoverflow.com/questions/7771912/how-to-right-align-level-field-in-python-logging-formatter

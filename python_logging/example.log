@@ -1,171 +1,92 @@
-
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:18:56 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-DEBUG 2023-09-29 15:20:01 This message should go to the log file
-INFO 2023-09-29 15:20:01 This message should go to the log file
-WARNING 2023-09-29 15:20:01 This message should go to the log file
-ERROR 2023-09-29 15:20:01 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-   DEBUG 2023-09-29 15:21:26 This message should go to the log file
-    INFO 2023-09-29 15:21:26 This message should go to the log file
- WARNING 2023-09-29 15:21:26 This message should go to the log file
-   ERROR 2023-09-29 15:21:26 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG8 2023-09-29 15:21:44 This message should go to the log file
-INFO8 2023-09-29 15:21:44 This message should go to the log file
-WARNING8 2023-09-29 15:21:44 This message should go to the log file
-ERROR8 2023-09-29 15:21:44 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
-DEBUG    2023-09-29 15:22:25 This message should go to the log file
-INFO     2023-09-29 15:22:25 This message should go to the log file
-WARNING  2023-09-29 15:22:25 This message should go to the log file
-ERROR    2023-09-29 15:22:25 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+DEBUG    2023-09-29 21:18:27 This message should go to the log file
+INFO     2023-09-29 21:18:27 This message should go to the log file
+WARNING  2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 This message should go to the log file
+ERROR    2023-09-29 21:18:27 That didn't go well.
+Traceback (most recent call last):
+  File "C:\Users\jvandijk\OneDrive - Christian Horizons\Desktop\Snippets\python_logging\logging_example.py", line 16, in <module>
+    x = 1 / 0
+        ~~^~~
+ZeroDivisionError: division by zero
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+DEBUG    2023-09-29 21:18:49 This message should go to the log file
+INFO     2023-09-29 21:18:49 This message should go to the log file
+WARNING  2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 This message should go to the log file
+ERROR    2023-09-29 21:18:49 That didn't go well.
+Traceback (most recent call last):
+  File "C:\Users\jvandijk\OneDrive - Christian Horizons\Desktop\Snippets\python_logging\logging_example.py", line 16, in <module>
+    x = 1 / 0
+        ~~^~~
+ZeroDivisionError: division by zero

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script>
+    const element = document.getElementById("circle1");
+    let start, previousTimeStamp;
+    let done = false;
+    let dir = 1;          // -1 is left, 1 is right
+
+    function set_direction(input_dir){
+        dir = input_dir;
+        count = 0;
+    }
+    function step(timeStamp) {
+    if (start === undefined) {
+        start = timeStamp;
+    }
+    
+    const elapsed = timeStamp - start;
+
+    if (previousTimeStamp !== timeStamp) {
+        cx = 200;
+        // Math.min() is used here to make sure the element stops at exactly 200px
+        const count = Math.min(0.1 * elapsed, 200);
+        document.getElementById('circle1').setAttribute('cx', cx + (count * dir));
+        // element.style.transform = `translateX(${count}px)`;
+        if (count === 200) done = true;
+    }
+
+    if (elapsed < 2000) {
+        // Stop the animation after 2 seconds
+        previousTimeStamp = timeStamp;
+        if (!done) {
+        window.requestAnimationFrame(step);
+        }
+    }
+    }
+
+window.requestAnimationFrame(step);
+</script>
+<body>
+
+
+<div class="">
+    <svg width="500" height="500">
+        <circle id='circle1' cx="250" cy="250" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg>
+</div>
+
+<button onclick="set_direction(-1);">Left</button>
+<button onclick="set_direction(1);">Right</button>
+</body>
+</html>

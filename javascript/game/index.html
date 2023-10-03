@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script>
+    window.onload = init;
+    
+    cx = 250;
+    // The proper game loop
+
+    function init(){
+        // canvas = document.getElementById('canvas');
+        // context = canvas.getContext('2d');
+
+        // Start the first frame request
+        window.requestAnimationFrame(move_circle);
+    }
+    
+
+    function move_circle(){
+        cx = cx + 2;
+        value = '"'+cx+'"';
+        document.getElementById('circle1').setAttribute('cx', cx);
+        
+    //  alert (value);
+     window.requestAnimationFrame(move_circle);
+    }
+</script>
+<body>
+
+<img src="img_la.jpg" alt="LA" style="width:100%">
+
+<div class="">
+    <svg width="500" height="500">
+        <circle id='circle1' cx="250" cy="250" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg>
+</div>
+
+<button onclick="document.getElementById('circle1').setAttribute('cx', '300');">Move It</button>
+
+</body>
+</html>

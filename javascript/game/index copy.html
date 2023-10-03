@@ -11,6 +11,7 @@
     let start, previousTimeStamp;
     let done = false;
     let dir = 1;          // -1 is left, 1 is right
+    let position = 200;
 
     function set_direction(input_dir){
         dir = input_dir;
@@ -24,15 +25,21 @@
     const elapsed = timeStamp - start;
 
     if (previousTimeStamp !== timeStamp) {
-        cx = 200;
+        position = position + dir;
         // Math.min() is used here to make sure the element stops at exactly 200px
-        const count = Math.min(0.1 * elapsed, 200);
-        document.getElementById('circle1').setAttribute('cx', cx + (count * dir));
+        const count = Math.min(.1 * elapsed, 200);
+        document.getElementById('circle1').setAttribute('cx',  position);
         // element.style.transform = `translateX(${count}px)`;
-        if (count === 200) done = true;
+        // if (count === 200) done = true;
+        document.getElementById("position").innerHTML = position;
+
+    }
+    
+    function finish(){
+        done = true;
     }
 
-    if (elapsed < 2000) {
+    if (true) {
         // Stop the animation after 2 seconds
         previousTimeStamp = timeStamp;
         if (!done) {
@@ -51,8 +58,10 @@ window.requestAnimationFrame(step);
         <circle id='circle1' cx="250" cy="250" r="40" stroke="green" stroke-width="4" fill="yellow" />
       </svg>
 </div>
+<div id="position"></div>
 
 <button onclick="set_direction(-1);">Left</button>
 <button onclick="set_direction(1);">Right</button>
+<button onclick="finish();">Stop</button>
 </body>
 </html>

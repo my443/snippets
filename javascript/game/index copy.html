@@ -27,7 +27,7 @@
     if (previousTimeStamp !== timeStamp) {
         position = position + dir;
         // Math.min() is used here to make sure the element stops at exactly 200px
-        const count = Math.min(.1 * elapsed, 200);
+        const count = Math.min(10000 * elapsed, 200);
         document.getElementById('circle1').setAttribute('cx',  position);
         // element.style.transform = `translateX(${count}px)`;
         // if (count === 200) done = true;
@@ -62,6 +62,6 @@ window.requestAnimationFrame(step);
 
 <button onclick="set_direction(-1);">Left</button>
 <button onclick="set_direction(1);">Right</button>
-<button onclick="finish();">Stop</button>
+<button onclick="set_direction(0);">Stop</button>
 </body>
 </html>

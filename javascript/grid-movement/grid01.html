@@ -1,0 +1,142 @@
+<html>
+<body>
+
+<script type="text/javascript">
+// http://stackoverflow.com/questions/2878983/capture-key-press-without-placing-an-input-element-on-the-page
+// http://unixpapa.com/js/key.html
+
+var rows = 2;
+var cols = 4;
+
+var curRow = 0;
+var curCol = 0;
+
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 37) {
+        moveLeft();
+    }
+    else if (evt.keyCode == 39) {
+		moveRight();
+		}
+	else if (evt.keyCode == 38) {
+		moveUp();
+		}
+	else if (evt.keyCode == 40) {
+		moveDown();
+		}
+};
+
+function findCurrenPos () {
+	var colRef = document.activeElement.id;
+
+    var ind = colRef.indexOf("c");
+    var len = colRef.length;
+
+	var curRow = colRef.substring(1, ind); 			// find the number after the r
+	var curCol = colRef.substring(ind + 1, len) 	// find the number after the c
+	
+	return [curRow, curCol];						// x , y
+	}
+	
+function moveLeft () {
+	var ret=[];
+	ret = findCurrenPos ();
+	
+	curRow = ret[0];
+	curCol = ret[1];
+	
+	if (curCol > 0) {
+		curCol = curCol - 1;
+		var pos = 'r'+curRow+'c'+curCol;
+		//document.getElementById(pos).focus();
+		document.getElementById(pos).select();
+		}	
+}
+
+function moveRight() {
+	var ret=[];
+	ret = findCurrenPos ();
+	
+	curRow = ret[0];
+	curCol = ret[1];
+
+	
+	if (curCol < 4) {
+		curCol = parseInt(curCol) + 1;
+		var pos = 'r'+curRow+'c'+curCol;
+		//document.getElementById(pos).focus();
+		document.getElementById(pos).select();
+		}		
+	}
+
+function moveDown() {
+	var ret=[];
+	ret = findCurrenPos ();
+	
+	curRow = ret[0];
+	curCol = ret[1];
+
+	
+	if (curRow < 1) {
+		curRow = parseInt(curRow) + 1;
+		var pos = 'r'+curRow+'c'+curCol;
+		//document.getElementById(pos).focus();
+		document.getElementById(pos).select();
+		}	
+	}
+
+function moveUp() {
+	var ret=[];
+	ret = findCurrenPos ();
+	
+	curRow = ret[0];
+	curCol = ret[1];
+
+	
+	if (curRow > 0 ) {
+		curRow = parseInt(curRow) - 1;
+		var pos = 'r'+curRow+'c'+curCol;
+		//document.getElementById(pos).focus();
+		document.getElementById(pos).select();
+		}	
+	}
+
+function changebackground(id) {
+	var nm = document.activeElement;
+	var n = nm.id;
+	r = 1;
+	c = 2;
+	//alert(n);
+	
+	document.getElementById("r0c0").style.backgroundColor = 'white';
+	document.getElementById("r0c1").style.backgroundColor = 'white';
+	document.getElementById("r0c2").style.backgroundColor = 'white';
+	document.getElementById("r0c3").style.backgroundColor = 'white';
+	
+	document.getElementById("r1c0").style.backgroundColor = 'white';
+	document.getElementById("r1c1").style.backgroundColor = 'white';
+	document.getElementById("r1c2").style.backgroundColor = 'white';
+	document.getElementById("r1c3").style.backgroundColor = 'white';
+	
+	document.getElementById(id).style.backgroundColor = '#72A4D2';	
+}
+</script>
+
+<table><tr><td>
+<input type="text" id ="r0c0" STYLE="background-color: #72A4D2;" onfocus="changebackground('r0c0')" autofocus></input>
+<input type="text" id ="r0c1" onfocus="changebackground('r0c1')">
+<input type="text" id ="r0c2" onfocus="changebackground('r0c2')">
+<input type="text" id ="r0c3" onfocus="changebackground('r0c3')"></td>
+</tr>
+<td>
+<input type="text" id ="r1c0" onfocus="changebackground('r1c0')"></input>
+<input type="text" id ="r1c1" onfocus="changebackground('r1c1')"></input>
+<input type="text" id ="r1c2" onfocus="changebackground('r1c2')"></input>
+<input type="text" id ="r1c3" onfocus="changebackground('r1c3')"></input>
+</td>
+</table>
+
+
+</body>
+</html>

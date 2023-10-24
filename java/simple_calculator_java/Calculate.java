@@ -1,7 +1,6 @@
 
 // package Calculate.java;
-import javax.swing.*;
-        
+import javax.swing.*;        
 
 /**
  *

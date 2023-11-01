@@ -26,6 +26,10 @@ class Database{
         $database->query($create_query);
     }
 
+    /**
+     * Uses the values from the input data to populate the query. 
+     * TODO: use the $input_data array to make the query more generic.
+     */
     function insert_record($input_data){
         $insert_query = "INSERT INTO survey_items
                         ('fname', 'lname', 'fav_language', 'cars')

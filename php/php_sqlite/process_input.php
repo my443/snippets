@@ -1,6 +1,5 @@
 <?php
-error_reporting(E_ALL);
-echo('ok');
+
 include "php_sqlite.php";
 
 
@@ -10,7 +9,7 @@ include "php_sqlite.php";
 function process_data(){
     //List each input element by name
     // TODO - change this to the list of form inputs. 
-    $list_of_inputs_to_process = ["fname", "lname", "fav_language", "cars"];
+    $list_of_inputs_to_process = ["firstname", "lastname", "annual_income", "school"];
     $fields_to_save_in_database = Array();
 
     $post_data = $_POST;
@@ -30,10 +29,11 @@ function process_data(){
 }
 
 $fields = process_data();
-print_r($fields);
-echo("<h2>New Data</h2>");
+// print_r($fields);
+echo("<h2>New Data Entered</h2>");
 $db = new Database;
 $db->insert_record($fields);
-echo('done');
-echo('and here');
+
+$result_array = $db->get_all_records();
 ?>
+<a href="download_export.php">Click here to download records</a>

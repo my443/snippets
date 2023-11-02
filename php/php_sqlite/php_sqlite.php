@@ -17,10 +17,10 @@ class Database{
         "CREATE TABLE survey_items (
             id           INTEGER PRIMARY KEY AUTOINCREMENT
                                  NOT NULL,
-            fname        TEXT,
-            lname        TEXT,
-            fav_language TEXT,
-            cars         TEXT
+            firstname        TEXT,
+            lastname        TEXT,
+            annual_income TEXT,
+            school         TEXT
         );";
 
         $database->query($create_query);
@@ -32,20 +32,47 @@ class Database{
      */
     function insert_record($input_data){
         $insert_query = "INSERT INTO survey_items
-                        ('fname', 'lname', 'fav_language', 'cars')
-                        VALUES ('{$input_data["fname"]}' , '{$input_data["lname"]}', '{$input_data["fav_language"]}', '{$input_data["cars"]}');
+                        ('firstname', 'lastname', 'annual_income', 'school')
+                        VALUES ('{$input_data["firstname"]}' , '{$input_data["lastname"]}', '{$input_data["annual_income"]}', '{$input_data["school"]}');
                         ";    
 
-        echo ($insert_query);
         $statement = $this->database->prepare($insert_query);
         $statement->execute();
+
+    }
+
+    function get_all_records(){
+        $all_records = Array();
+        $select_query = "SELECT * from survey_items;";
+
+        $query = $this->database->query($select_query);    
+
+        while ($row = $query->fetchArray()) {
+            array_push($all_records, $row);
+        }
+
+        return $all_records;
+
+    }
+
+    function download_csv($result_array){
+        $filename = 'personal_information_export.csv';
+
+        header('Content-Type: application/csv');
+        header('Content-Disposition: attachment; filename="'.$filename.'";');
+        echo('"ID", "Firstname", "Lastname", "Annual Income", "School"'."\r\n");
+
+        foreach ($result_array as $line) {
+            $line_array = Array($line[0], $line[1], $line[2], $line[3], $line[4]);
+            $row_string = '"' . implode('","', $line_array).'"';
+            echo $row_string."\r\n";
+        }
 
     }
 
 
     public function __construct(){
         $this->database = new SQLite3('mydb.db');
-        echo('got here');
 
         // $this->create_main_table($database);
 

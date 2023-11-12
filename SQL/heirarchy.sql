@@ -1,5 +1,5 @@
 USE scratch_pad; -- on local hosted sqlserver
-
+-- gets the level one in the hierarchy
 /** 
 create table hierarchy
 (parent int,

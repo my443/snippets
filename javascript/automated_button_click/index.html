@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Click Example</title>
+<script>
+    function buttonClicked(){
+        currentNumber = document.getElementById("num").innerText;
+        newNumber = parseInt(currentNumber) + 1;
+        document.getElementById("num").innerText = newNumber;
+    }
+</script>
+</head>
+
+<body>
+
+    <b>Button has been clicked <u id="num">0</u> times</b>
+    <p>
+        <button onclick="buttonClicked()">Click me</button>
+    </p>
+</body>
+</html>
